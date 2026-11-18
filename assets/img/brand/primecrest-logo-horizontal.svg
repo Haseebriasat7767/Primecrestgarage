@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260">
+  <defs>
+    
+  <linearGradient id="pg-gold" x1="0.05" y1="0" x2="0.95" y2="1">
+    <stop offset="0" stop-color="#F8ECC2"/>
+    <stop offset="0.28" stop-color="#E6CC86"/>
+    <stop offset="0.58" stop-color="#C9A227"/>
+    <stop offset="0.82" stop-color="#9C7320"/>
+    <stop offset="1" stop-color="#E3C77F"/>
+  </linearGradient>
+    <linearGradient id="pg-gold-text" x1="0" y1="0" x2="1" y2="0.6">
+      <stop offset="0" stop-color="#F8ECC2"/>
+      <stop offset="0.35" stop-color="#DCBE79"/>
+      <stop offset="0.7" stop-color="#C9A227"/>
+      <stop offset="1" stop-color="#EDD79A"/>
+    </linearGradient>
+  </defs>
+  
+  <g transform="translate(38 27) scale(1)">
+<g>
+  <!-- crown / peak -->
+  <path d="M64 41 V20 L82 33 L100 12 L118 33 L136 20 V41"
+        fill="none" stroke="url(#pg-gold)" stroke-width="5"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M100 12 l3.4 4.6 -3.4 4.6 -3.4 -4.6 Z" fill="url(#pg-gold)"/>
+  <circle cx="64" cy="19" r="2.6" fill="url(#pg-gold)"/>
+  <circle cx="136" cy="19" r="2.6" fill="url(#pg-gold)"/>
+
+  <!-- shield -->
+  <path d="M100 47 L166 69 V126 C166 161 137 183 100 193 C63 183 34 161 34 126 V69 Z"
+        fill="none" stroke="url(#pg-gold)" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M100 58 L155 76 V125 C155 153 131 171 100 180 C69 171 45 153 45 125 V76 Z"
+        fill="none" stroke="#C9A227" stroke-width="1.2" opacity="0.45"/>
+
+  <!-- luxury supercar silhouette -->
+  <g transform="translate(100 118) scale(0.93) translate(-103 -129)">
+    <path fill="url(#pg-gold)" fill-rule="evenodd" d="
+      M57 133
+      C57 128 60 125.5 66 124
+      L84.5 121
+      L100 111
+      L116 110
+      L134 119
+      L144.5 124
+      C147.5 125.5 149 128 149 132
+      L149 148
+      L57 148 Z
+      M66.7 137.5 a10.3 10.3 0 1 0 20.6 0 a10.3 10.3 0 1 0 -20.6 0 Z
+      M73.8 137.5 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0 Z
+      M118.5 137.5 a10.5 10.5 0 1 0 21 0 a10.5 10.5 0 1 0 -21 0 Z
+      M125.7 137.5 a3.3 3.3 0 1 0 6.6 0 a3.3 3.3 0 1 0 -6.6 0 Z"/>
+    <path d="M68 157 H138" stroke="#C9A227" stroke-width="1.8" opacity="0.3" stroke-linecap="round"/>
+  </g>
+</g></g>
+  <g>
+    <text x="268" y="112" font-family="Cormorant Garamond Light" font-weight="600" font-size="74"
+          letter-spacing="4" fill="url(#pg-gold-text)">PRIMECREST</text>
+    <line x1="270" y1="142" x2="806" y2="142" stroke="url(#pg-gold)" stroke-width="1.1" opacity="0.55"/>
+    <text x="270" y="180" font-family="Jost Medium" font-weight="500" font-size="30"
+          letter-spacing="15.5" fill="#D9C089">G A R A G E</text>
+    <text x="268" y="217" font-family="Jost" font-weight="400" font-size="17.5"
+          letter-spacing="3.1" fill="#B9A47B" opacity="0.95">WHERE LUXURY MEETS PRECISION</text>
+  </g>
+</svg>
