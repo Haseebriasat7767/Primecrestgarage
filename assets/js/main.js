@@ -85,7 +85,7 @@
   /* ---------- Active nav link ---------- */
   function initActiveNav() {
     var sections = Array.prototype.slice.call(document.querySelectorAll('main section[id]'));
-    var links = Array.prototype.slice.call(document.querySelectorAll('.primary-nav a[href^="#"]'));
+    var links = Array.prototype.slice.call(document.querySelectorAll('.primary-nav a[href^="#"]:not(.btn)'));
     if (!sections.length || !('IntersectionObserver' in window)) return;
 
     var map = {};
