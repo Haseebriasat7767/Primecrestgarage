@@ -28,6 +28,6 @@ python3 -m http.server 8000
 ## Notes
 - The booking form has no backend: it validates, then composes a WhatsApp message
   with the entered details. Point `WhatsAppNumber` in `assets/js/main.js` at the
-  live number, and update the phone, email and address placeholders in
-  `index.html` (they currently use +971 4 570 8420 / +971 50 570 8420).
+  live number (currently +971 56 877 8354). Address on file: First Al Khail
+  Street, Al Quoz Industrial Area 1, Dubai.
 - SEO title: **Primecrest Garage | Luxury Car Repair Dubai**.

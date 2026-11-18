@@ -5,7 +5,7 @@
   'use strict';
 
   var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var WhatsAppNumber = '971505708420';
+  var WhatsAppNumber = '971568778354';
 
   document.addEventListener('DOMContentLoaded', function () {
     initYear();
